@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Etna";
+    src: url("../fonts/Etna.woff2") format("woff2"),
+         url("../fonts/Etna.woff") format("woff"),
+         url("../fonts/Etna.ttf") format("ttf");   
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "JosefinSans-Bold";
+    src: url("../fonts/JosefinSans-Bold.woff2") format("woff2"),
+         url("../fonts/JosefinSans-Bold.woff") format("woff"),
+         url("../fonts/JosefinSans-Bold.ttf") format("ttf");   
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gautami-Bold";
+    src: url("../fonts/Gautami-Bold.woff2") format("woff2"),
+         url("../fonts/Gautami-Bold.woff") format("woff"),
+         url("../fonts/Gautami-Bold.ttf") format("ttf");   
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "JosefinSans-SemiBold";
+    src: url("../fonts/JosefinSans-SemiBold.woff2") format("woff2"),
+         url("../fonts/JosefinSans-SemiBold.woff") format("woff"),
+         url("../fonts/JosefinSans-SemiBold.ttf") format("ttf");   
+    font-display: swap;
+}
+
+
+
+a { 
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+p, h1, h2 {
+    color:  #bbb;
+    font-size: 16px;
+    font-family: "JosefinSans-Bold";
+    margin:  0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.wraper {
+    display: flex;    
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    box-sizing: border-box;
+}
+
+// За
+.title-section {
+
+    margin: 0;
+    width: 299px;
+    height: 88px;
+    background-color: #2ecc71;            
+    transform: rotate(-5deg);
+    text-align: center;
+    
+
+        h2 {
+            font-family: "JosefinSans-Bold";
+            color: #fff;
+            font-size: 50px;
+            transform: rotate(5deg);
+            margin: 0;
+            padding-top: 22px;
+            letter-spacing: -4px;
+        }            
+}
