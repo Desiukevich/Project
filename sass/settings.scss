@@ -37,7 +37,7 @@ a {
     color: #ffffff;
     
 }
-p, h1 {
+p, h1, h2, h3 {
     color:  #bbb;
     font-size: 16px;
     font-family: "JosefinSans-Bold";
@@ -55,4 +55,27 @@ ul {
     margin-right: auto;
     max-width: 1170px;
     box-sizing: border-box;
+}
+
+// Загаловок
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 299px;
+    height: 88px;
+    background-color: #2ecc71;            
+    transform: rotate(-5deg);
+    text-align: center;
+    
+
+        h2 {
+            font-family: "JosefinSans-Bold";
+            color: #fff;
+            font-size: 50px;
+            transform: rotate(5deg);
+            margin: 0;            
+            letter-spacing: -4px;
+        }            
 }
