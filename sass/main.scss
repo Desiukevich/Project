@@ -51,6 +51,23 @@
 }
 
 @media (max-width: 767px) {
+    .header-burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        &::before {}
+        &::after {
+            content: "";
+            background-color: #fff;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+
+        }
+    }
+
+
     .wr-news {
         .news-block{
             flex-direction: row;
@@ -95,6 +112,11 @@ body {
 }
 
 // верхнее меню  (блок header)
+.header-burger {
+    display: none;
+}
+
+
 .wr-head {    
     padding-top: 28px;
 

@@ -469,6 +469,19 @@ ul {
 }
 
 @media (max-width: 767px) {
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .header-burger::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+  }
   .wr-news .news-block {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -505,6 +518,10 @@ body {
   height: 111vh;
   background-size: cover;
   background-position: left bottom;
+}
+
+.header-burger {
+  display: none;
 }
 
 .wr-head {
