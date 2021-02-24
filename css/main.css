@@ -575,8 +575,20 @@ body {
   color: #2ecc71;
 }
 
+.header-basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header-basket .search {
   padding-right: 15px;
+}
+
+.header-basket p {
+  position: relative;
+  right: 13px;
+  color: #fff;
 }
 
 .wr-welcome {

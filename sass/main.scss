@@ -166,8 +166,14 @@ body {
 
 // поиск и корзина
 .header-basket {
+    display: flex;
     .search {
         padding-right: 15px;
+    }
+    p {
+        position: relative;
+        right: 13px;
+        color: #fff;
     }
 
 }
